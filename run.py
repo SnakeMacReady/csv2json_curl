@@ -24,8 +24,7 @@ def csv_to_json(csv_file):
             })
             
             # Call the API with cURL
-            api_url = 'http://example.com/api'  # Replace with your API 
-endpoint
+            api_url = 'http://example.com/api'  # Replace with your API endpoint
             post_data_to_api(api_url, payload)
 
 # Usage example
